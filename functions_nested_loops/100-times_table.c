@@ -11,10 +11,12 @@ void print_times_table(int n)
 	int row;
 	int mul;
 
-	for (column = 0; column <= 9; column++)
+	if (n >= 0 && n < 16)
 	{
-		for (row = 0; row <= 9; row++)
+		for (column = 0; column <= n; column++)
 		{
+			for (row = 0; row <=n; row++)
+			{
 			mul = column * row;
 			if (row == 0)
 			{
@@ -25,16 +27,27 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar(prod + '0');
+				_putchar(' ');
+				_putchar(mul + '0');
 			}
-			else if (mul >= 10)
+			else if (mul >= 10 && mul < 100)
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar((prod / 10) + '0');
-				_putchar((prod % 10) + '0');
+				_putchar(' ');
+				_putchar((mul / 10) + '0');
+				_putchar((mul % 10) + '0');
 			}
-		}
+			else if (mul >= 100)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar((mul / 100) + '0');
+				_putchar(((mul % 100) / 10) + '0');
+				_putchar((mul % 10) + '0');
+			}
+			}
 		_putchar('\n');
+		}
 	}
 }
