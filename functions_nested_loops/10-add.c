@@ -1,15 +1,15 @@
 #include "main.h"
-
 /**
- * add - entry point
- * @a: num 1
- * @b: num 2
- * result: num 1 + num 2
- * return: result
+ * add - Entry point
+ * @a: first int
+ * @b: second int
+ * Return: (a + b)
  */
 
 int add(int a, int b)
 {
+	int result;
+
 	result = a + b;
 	return (result);
 }
