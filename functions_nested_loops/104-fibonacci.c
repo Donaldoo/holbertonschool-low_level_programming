@@ -15,7 +15,7 @@ int main(void)
 	b = 1000000000;
 	boolean1 = boolean2 = 1;
 	printf("%ld, %ld", num1, num2);
-	for (i = 2; i < 93; i++)
+	for (i = 0; i < 96; i++)
 	{
 		if (boolean1)
 		{
