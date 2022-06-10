@@ -13,7 +13,8 @@ int main(void)
 
 	n1 = 1;
 	n2 = 2;
-	for (i = 0; i < 34; ++i)
+	sum = 0;
+	for (i = 3; i < 33; ++i)
 	{
 		fib = n1 + n2;
 		n1 = n2;
