@@ -1,24 +1,5 @@
 #include <stdio.h>
 /**
- * seperate_numbers - entry point
- * Return: 0
- */
-void seperate_numbers(void)
-{
-	long int num1, num2, fib, fib2, num_h, num_t, b;
-	int boolean2;
-
-	num_h = num1 % b;
-	num_t = num2 % b;
-	num1 = num1 / b;
-	num2 = num2 / b;
-	boolean2 = 0;
-}
-
-
-
-
-/**
  * main - entry point
  *
  * Return: 0
@@ -26,7 +7,7 @@ void seperate_numbers(void)
 
 int main(void)
 {
-	long int num1, num2, fib, fib2, num_h, num_t, b;
+	long int num1, num2, fib, fib2,num_h, num_t, b;
 	int boolean1, boolean2, i;
 
 	num1 = 1;
@@ -47,7 +28,11 @@ int main(void)
 		{
 			if (boolean2)
 			{
-				seperate_numbers();
+				num_h = num1 % b;
+				num_t = num2 % b;
+				num1 = num1 / b;
+				num2 = num2 / b;
+				boolean2 = 0;
 			}
 			fib2 = num_h + num_t;
 			fib = num1 + num2 + (fib2 / b);
