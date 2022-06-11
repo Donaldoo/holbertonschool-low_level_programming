@@ -41,7 +41,7 @@ int main(void)
 			num1 = num2;
 			num_h = num_t;
 			num2 = fib;
-			num_t = fib2 / b;
+			num_t = (fib2 % b);
 		}
 		if ((num1 + num2 < 0) && boolean1 == 1)
 			boolean1 = 0;
