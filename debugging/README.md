@@ -2,10 +2,10 @@ Debugging
 =
 Debugging is a process that involves **indetifying a problem, isolating the source of the problem and then fixing the problem or finding a way to work around it.** The final step of debugging is **testing the correction** and making sure it works.
 </br>
-</br>
+
 
 ## Files
-*Programs written in **C language***
+*Programs are written in **C language***
 
 File name | Description
 --------- | ------------
