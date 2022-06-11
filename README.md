@@ -7,6 +7,6 @@ C is a **general-purpose high level language** that was originally **developed b
 <img align="right" width="150" height="150" src="https://logodix.com/logo/1138096.png">
 
 * [Hello world](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/hello_world)
-* [Variables ***if***, ***else*** and ***while***](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/variables_if_else_while)
+* [Variables, ***if***, ***else*** and ***while*** loop](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/variables_if_else_while)
 * [Functions and nested loops](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/functions_nested_loops)
 * [Debugging](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/debugging)
