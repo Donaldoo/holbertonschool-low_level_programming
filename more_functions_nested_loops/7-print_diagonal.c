@@ -2,7 +2,7 @@
 /**
  * print_diagonal - entry point
  * @n: int code checks
- *Return: void
+ * Return: void
  */
 
 void print_diagonal(int n)
@@ -16,6 +16,6 @@ void print_diagonal(int n)
 		_putchar('\\');
 		_putchar('\n');
 	}
-	if (n < i)
+	if (n < 1)
 		_putchar('\n');
 }
