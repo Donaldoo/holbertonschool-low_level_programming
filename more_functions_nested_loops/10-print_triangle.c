@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_square - entry point
- * @size: square size
+ * print_triangle - entry point
+ * @size: int
  * Return: void
  */
 void print_triangle(int size)
@@ -12,14 +12,14 @@ void print_triangle(int size)
 	{
 		for (height = 0; height < size; height++)
 		{
-			if (width <= size - height)
+			if (height <= (size - width))
 				_putchar(' ');
 			else
 				_putchar('#');
-			_putchar('\n');
 		}
-		if (width < (size - height))
-				_putchar('\n');
+		_putchar('\n');
 	}
+	if (size <= 0)
+		_putchar('\n');
 }
 
