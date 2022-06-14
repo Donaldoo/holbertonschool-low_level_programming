@@ -1,6 +1,5 @@
 #include "main.h"
 #include <string.h>
-#include <stdio.h>
 /**
  * _strlen - entry point
  * @s: string
