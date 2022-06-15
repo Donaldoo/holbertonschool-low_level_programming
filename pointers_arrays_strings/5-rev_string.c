@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * rev_string= entry point
+ * rev_string - entry point
  * @s: string
  * Return: void
  */
