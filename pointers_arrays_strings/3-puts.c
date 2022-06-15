@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _puts - entry point
  * @str: string to be printed
@@ -8,5 +8,12 @@
 
 void _puts(char *str)
 {
-	puts(str);
+	int length, index;
+
+	length = 0;
+	while (str[length] != '\0')
+		length++;
+	for (index = 0; index < length; index++)
+		_putchar(str[index]);
+	_putchar('\n');
 }
