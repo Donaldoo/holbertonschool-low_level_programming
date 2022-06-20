@@ -15,7 +15,7 @@ int find_prime(int n, int i)
 		else
 			return (0);
 	}
-	return (0 + find_prime(n, i + i));
+	return (0 + find_prime(n, i + 1));
 }
 
 /**
