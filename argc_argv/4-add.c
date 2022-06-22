@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- *
- *
- *
+ * main - entry point
+ * @argc: num of args
+ * @argc: array of args
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
@@ -16,8 +17,8 @@ int main(int argc, char *argv[])
 		{
 			if (argv[i][j] < '0' || argv[i][j] > '9')
 			{
-				printf("Error");
-				return(1);
+				printf("Error\n");
+				return (1);
 			}
 		}
 	}
