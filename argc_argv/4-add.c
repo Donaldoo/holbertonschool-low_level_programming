@@ -2,7 +2,7 @@
 /**
  * main - entry point
  * @argc: num of args
- * @argc: array of args
+ * @argv: array of args
  * Return: 0
  */
 
