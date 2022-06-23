@@ -3,6 +3,7 @@
  * create_array - entry point
  * @size: array size
  * @c: char
+ * Return: array
  */
 
 char *create_array(unsigned int size, char c)
