@@ -18,20 +18,22 @@ int _strlen(char *s)
 /**
  * char_compare - compare string chars
  * @s: string
- * @len: string length
+ * @length: string length
+ * @i: int
  * Return: 1 if palindrome, 0 if not
  */
 
-int char_compare(char *s, int len)
+int char_compare(char *s, int length, int i)
 {
-	if (len <= 1)
-		return (1);
-	else if (*s == (len - s - 1));
+	if (s[i] == s[length / 2])
 	{
-		return (char_compare());
+		return (1);
 	}
-	else
-		return (0);
+	if (s[i] == s[length - i - 1])
+	{
+		return (char_compare(s, length, i + 1));
+	}
+	return (0);
 }
 
 /**
@@ -42,7 +44,12 @@ int char_compare(char *s, int len)
 
 int is_palindrome(char *s)
 {
-	if (_strlen(s) <= 1)
+	int length = _strlen(s);
+	int i = 0;
+
+	if (!*s)
+	{
 		return (1);
-	return();
+	}
+	return (char_compare(s, length, i));
 }
