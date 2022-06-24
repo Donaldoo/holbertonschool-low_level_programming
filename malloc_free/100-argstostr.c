@@ -24,18 +24,20 @@ int _strlen(char *string)
 char *argstostr(int ac, char **av)
 {
 	char *string;
-	int len, i = 0, j = 0, n = 0;
+	int len = 0, i = 0, j = 0, n = 0;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
 	for ( ; i < ac; i++)
 		len += _strlen(av[i]);
-	len += ac + 1;
+	len += (ac + 1);
 
 	string = malloc(len * sizeof(char));
 	if (string == NULL)
+	{
 		return (NULL);
+	}
 
 	for (i = 0; i < ac; i++)
 	{
