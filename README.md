@@ -12,3 +12,7 @@ C is a **general-purpose high level language** that was originally **developed b
 * [Debugging](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/debugging)
 * [More functions, more nested loops](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/more_functions_nested_loops)
 * [Pointers, arrays and strings](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/pointers_arrays_strings)
+* [Recursion](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/recursion)
+* [Static libraries](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/static_libraries)
+* [C - argc, argv](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/argc_argv)
+* [C - malloc, free](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/malloc_free)
