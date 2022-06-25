@@ -31,6 +31,7 @@ File name | Description
 [7-puts_half.c](https://github.com/Donaldoo/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/7-puts_half.c) | Function that prints the second half of a string.
 [8-print_array.c](https://github.com/Donaldoo/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/8-print_array.c) | Function that prints `n` elements of an array of integers.
 [9-strcpy.c](https://github.com/Donaldoo/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/9-strcpy.c) | Copies the string pointed to by `src`, including the terminating null byte, to the buffer pointed to by `dest`.
+[100-atoi.c](https://github.com/Donaldoo/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/100-atoi.c) | Converts a string to an integer.
 
 
 </details>
