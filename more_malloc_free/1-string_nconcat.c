@@ -28,6 +28,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (concat == NULL)
 		return (NULL);
 
+	if (n > len2)
 	len2 = n;
 	for (index = 0; s1[index]; index++)
 		concat[concat_index++] = s1[index];
