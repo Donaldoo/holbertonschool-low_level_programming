@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * malloc_checked - entry point
- * b: int
+ * @b: int
  * Return: str
  */
 
