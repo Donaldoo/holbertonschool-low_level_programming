@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- *
- *
- *
- *
+ * malloc_checked - entry point
+ * b: int
+ * Return: str
  */
 
 void *malloc_checked(unsigned int b)
