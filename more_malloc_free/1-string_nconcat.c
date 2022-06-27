@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * string_nconcat - entry point
- * s1: string
- * s2: string
+ * @s1: string
+ * @s2: string
  * @n: n of bytes
  * Return: concat
  */
@@ -30,10 +30,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	len2 = n;
 	for (index = 0; s1[index]; index++)
-		concat[concat_index] = s1[index];
+		concat[concat_index++] = s1[index];
 	for (index = 0; s2[index] && index < n; index++)
-		concat[concat_index] = s2[index];
+		concat[concat_index++] = s2[index];
 
 	return (concat);
 }
-
