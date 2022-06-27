@@ -1,6 +1,6 @@
 # C - malloc, free
 
-The **malloc()** function stands for **memory allocation**, that allocate a block of memory dynamically. It reserves the memory space for a specified size and returns the null pointer, which points to the memory location. The pointer returned is of type void. Syntax:
+The **malloc()** function stands for **memory allocation**, and is used to allocate a block of memory on the heap. It reserves the memory space for a specified size and returns the null pointer, which points to the memory location. The pointer returned is of type void. Syntax:
 ```
 ptr = malloc(size * sizeof(type));
 ```
