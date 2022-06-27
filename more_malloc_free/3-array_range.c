@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- *
- *
- *
+ * array_range - entry point
+ * @min: min
+ * @max: max
+ * Return: array
  */
 
 int *array_range(int min, int max)
