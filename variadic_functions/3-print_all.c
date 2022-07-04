@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * print_char - entry point
+ * @arg: arg list
  */
 void print_char(va_list arg)
 {
@@ -14,6 +15,7 @@ void print_char(va_list arg)
 
 /**
  * print_int - entry point
+ * @arg: arg list
  */
 void print_int(va_list arg)
 {
@@ -26,6 +28,7 @@ void print_int(va_list arg)
 
 /**
  * print_float - entry point
+ * @arg: arg list
  */
 void print_float(va_list arg)
 {
@@ -38,6 +41,7 @@ void print_float(va_list arg)
 
 /**
  * print_string - entry point
+ * @arg: arg list
  */
 void print_string(va_list arg)
 {
@@ -75,10 +79,10 @@ void print_all(const char * const format, ...)
 	separator = "";
 	format_cpy = format;
 	va_start(args, format);
-	while(format_cpy && format_cpy[i] != '\0')
+	while (format_cpy && format_cpy[i] != '\0')
 	{
 		j = 0;
-		while(formats[j].symbol)
+		while (formats[j].symbol)
 		{
 			if (formats[j].symbol[0] == format_cpy[i])
 			{
