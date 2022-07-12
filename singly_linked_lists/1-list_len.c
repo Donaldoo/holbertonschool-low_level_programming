@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * list_len = entry point
+ * list_len - entry point
  * @h: linked list
  * Return: elements number
  */
