@@ -1,8 +1,9 @@
 #include "lists.h"
 /**
- *
- *
- *
+ * add_node_end - function that ads a new node at thee end of sinly linked list
+ * @head: entry of the linked list
+ * @str: duplicated string
+ * Return: entry value
  */
 
 list_t *add_node_end(list_t **head, const char *str)
