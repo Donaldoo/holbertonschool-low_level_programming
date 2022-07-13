@@ -22,3 +22,6 @@ C is a **general-purpose high level language** that was originally **developed b
 * [C - Preprocessor](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/preprocessor)
 * [C - Structures, typedef](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/structures_typedef)
 * [C - Function pointers](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/function_pointers)
+* [C - Variadic functions](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/variadic_functions)
+* [C - Makefiles](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/makefiles)
+* [C - Singly linked lists](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/singly_linked_lists)
