@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int file_from, file_to, c;
-	ssize_t w, length;
+	ssize_t w, length = 1024;
 	char buffer[1024];
 
 	if (argc != 3)
@@ -21,7 +21,6 @@ int main(int argc, char *argv[])
 
 	file_from = open(argv[1], O_RDONLY);
 	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
-	length = 1024;
 	while (length == 1024)
 	{
 		length = read(file_from, buffer, 1024);
