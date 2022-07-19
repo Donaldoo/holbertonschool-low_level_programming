@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
-	while (length != '\0')
+	for ( ; length != '\0'; length++)
 	{
 		w = write(file_to, buffer, length);
 		if (file_from == -1 || w != length)
