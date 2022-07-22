@@ -13,7 +13,7 @@ int fun_name(data_type var_name, ...);
 
 
 ## *Files*
-*Files are programms written in ***C language.***
+*Files are programms written in **C language.***
 
 File name | Description
 --- | ---
