@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * dlist_len - finds the number of elements in a DLL
+ * dlistint_len - finds the number of elements in a DLL
  * @h: pointer to the head of the DLL
  * Return: number of elements
  */
