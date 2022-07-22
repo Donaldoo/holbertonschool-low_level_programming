@@ -5,7 +5,7 @@ C is a **general-purpose high level language** that was originally **developed b
 
 ## Projects this repository contains:
 
-<img align="right" width="400" height="400" src="https://logodix.com/logo/1138096.png">
+<img align="right" width="500" height="530" src="https://logodix.com/logo/1138096.png">
 
 
 * [C - Hello world](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/hello_world)
