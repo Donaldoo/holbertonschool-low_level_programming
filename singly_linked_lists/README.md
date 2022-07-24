@@ -1,6 +1,7 @@
 # C - Singly linked lists.
 
 **Linked List** is a linear data structure which elements are linked using pointers. They include a serie of connected nodes. Each node stores the `data` and `the address of the next node`. The singly linked list **can be traversed only in one direction.** </br>
+</br>
 **Structure of a node in singly linked list can be given as:**
 ```
 struct node
