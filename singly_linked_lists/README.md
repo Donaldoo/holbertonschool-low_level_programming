@@ -2,12 +2,21 @@
 
 **Linked List** is a linear data structure which elements are linked using pointers. They include a serie of connected nodes. Each node stores the `data` and `the address of the next node`. The singly linked list **can be traversed only in one direction.** </br>
 </br>
+**Structure of a node in singly linked list can be given as:**
+```
+struct node
+{
+    int data;
+    struct node *next;
+}
+```
+</br>
 
 ![Screenshot_1](https://user-images.githubusercontent.com/105612348/180406145-825bf05b-d650-4e56-bdb5-6b88b151e32d.png)
 
 
 ## *Files*
-* Files are programms written in **C language.***
+*Files are programms written in **C language.***
 
 File name | Description
 --- | ---
