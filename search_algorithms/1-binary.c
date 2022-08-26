@@ -2,7 +2,7 @@
 
 /**
  * binary_search - searches for a value in a sorted array
- * 			using binary search algorithm
+ *			using binary search algorithm
  * @array: sorted array to search
  * @size: size of the array
  * @value: the value we need to find
@@ -11,7 +11,7 @@
  */
 int binary_search(int *array, size_t size, int value)
 {
-	size_t low = 0, mid, high = size -1;
+	size_t low = 0, mid, high = size - 1;
 
 	if (array == NULL || size == 0)
 		return (-1);
