@@ -88,5 +88,5 @@ void print_array(int *array, size_t position, size_t size)
 		printf(" %d,", array[i]);
 		++i;
 	}
-	printf("%d\n", array[i]);
+	printf(" %d\n", array[i]);
 }
