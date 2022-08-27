@@ -80,7 +80,7 @@ void print_array(int *array, size_t position, size_t size)
 {
 	size_t i;
 
-	printf("Searching in array: ");
+	printf("Searching in array:");
 
 	i = position;
 	while (i < size)
