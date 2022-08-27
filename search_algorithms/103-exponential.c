@@ -2,8 +2,6 @@
 #include <math.h>
 #include <time.h>
 
-/* macro */
-#define MIN(A, B) ((A) < (B) ? (A) : (B))
 
 /**
  * binarySearch - binary search algorithm
