@@ -29,3 +29,5 @@ C is a **general-purpose high level language** that was originally **developed b
 * [C - Bit manipulation](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/bit_manipulation)
 * [C - File I/O](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/file_io)
 * [C - Doubly linked lists](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/doubly_linked_lists)
+* [C - Hash tables](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/hash_tables)
+* [C - Search algorithms](https://github.com/Donaldoo/holbertonschool-low_level_programming/tree/main/search_algorithms)
